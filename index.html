@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HT editor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="toolbar">
+      <!-- Add various buttons for text formatting here -->
+      <button onclick="formatText('bold')">Bold</button>
+      <button onclick="formatText('italic')">Italic</button>
+      <button onclick="formatText('underline')">Underline</button>
+      <!-- Add more buttons for other formatting options if desired -->
+    </div>
+    <div id="editor" contenteditable="true">
+      <!-- The user can type and edit text in this area -->
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

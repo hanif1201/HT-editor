@@ -1,0 +1,10 @@
+#toolbar {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#editor {
+  padding: 10px;
+  min-height: 300px;
+  border: 1px solid #ccc;
+}
